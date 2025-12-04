@@ -29,6 +29,7 @@ Producer and consumer are subclasses of `threading.Thread` and run in parallel, 
 
 ## File Structure
 
+```
 assignment1/
 │
 ├── buffer.py # BoundedBuffer implementation (blocking queue)
@@ -36,6 +37,7 @@ assignment1/
 ├── consumer.py # Consumer thread logic
 ├── main.py # Demonstration script
 └── README.md
+```
 
 
 ## Design Overview
@@ -113,6 +115,6 @@ Tests live under `tests/`:
 
 ## Run tests
 
-``bash
+```bash
 pytest
 ```
