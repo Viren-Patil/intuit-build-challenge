@@ -1,5 +1,3 @@
-# tests/test_assignment1_buffer.py
-
 import pytest
 
 from assignment1.buffer import BoundedBuffer

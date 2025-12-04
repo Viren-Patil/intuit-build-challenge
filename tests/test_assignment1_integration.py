@@ -1,5 +1,3 @@
-# tests/test_assignment1_integration.py
-
 from typing import List
 
 from assignment1.buffer import BoundedBuffer
