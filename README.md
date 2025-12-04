@@ -6,6 +6,7 @@ This repository contains my solutions to the Intuit SDE 1 Build Challenge. Each 
 
 ## Repository Structure
 
+```
 intuit_build_challenge/
 │
 ├── assignment1/
@@ -24,6 +25,7 @@ intuit_build_challenge/
 │
 ├── requirements.txt
 └── README.md
+```
 
 
 ## Assignment 1
