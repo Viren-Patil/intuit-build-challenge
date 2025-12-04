@@ -17,7 +17,12 @@ intuit_build_challenge/
 │ ├── README.md
 │
 ├── assignment2/
-│ └── (contents added later)
+│ ├── data/
+│ │ └── sales.csv
+│ ├── loader.py
+│ ├── analysis.py
+│ ├── main.py
+│ ├── README.md
 │
 ├── tests/
 │ ├── test_assignment1_buffer.py
@@ -54,6 +59,63 @@ Run the demo (from the repository root):
 
 ```bash
 python -m assignment1.main
+```
+
+Running Tests:
+
+All tests use pytest. From the repository root:
+
+```bash
+pytest
+```
+
+---
+
+## Assignment 2
+
+Assignment 2 is implemented inside the `assignment2/` folder.
+
+It focuses on CSV data analysis using pure Python functional programming, without pandas.
+
+The dataset (`sales.csv`) contains 30 rows of realistic sales transactions. The solution demonstrates:
+
+- generator expressions
+- lambda based sorting
+- grouping using dictionary accumulation
+- clean pure functions for analysis
+- composable functional transformations
+- formatted console reporting
+
+Core Analysis Functions
+
+- total revenue
+- revenue by region
+- revenue by month
+- top products by revenue
+- best salesperson
+
+Advanced Analysis
+
+- average revenue per sale
+- revenue by product
+- top salesperson per region
+
+Detailed documentation for this assignment is here:
+
+👉 **[assignment2/README.md](assignment2/README.md)**
+
+## Running Assignment 2
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the demo (from the repository root):
+
+```bash
+python -m assignment2.main
 ```
 
 Running Tests:
