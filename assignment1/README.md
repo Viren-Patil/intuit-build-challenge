@@ -1,9 +1,6 @@
 
 ---
 
-# **assignment1/README.md (copy paste exactly this)**
-
-```markdown
 # Assignment 1: Producer Consumer Pattern with Thread Synchronization
 
 This module implements a classic producer consumer workflow using Python threads,
