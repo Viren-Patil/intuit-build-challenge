@@ -115,6 +115,8 @@ Tests live under `tests/`:
 
 ## Run tests
 
+All tests use pytest. From the repository root:
+
 ```bash
 pytest
 ```
